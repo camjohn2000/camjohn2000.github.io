@@ -3,8 +3,11 @@
 nav ul {
 	list-style-type: none;
 	margin: 0;
-    	padding: 0;
-    	overflow: hidden;
+    padding: 0;
+	overflow: hidden;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
 	background-color: lightgrey;
 	box-shadow: 0 8px 6px -6px black;
 }
@@ -16,13 +19,111 @@ nav ul li {
 nav ul li a {
 	display: block;
 	text-decoration: none;
-    	text-align: center;
-    	color: black;
-    	padding: 10px;
+    text-align: center;
+    color: black;
+    padding: 10px;
 	font-size: 18px;
+	line-height: 
 }
 
 nav ul li a:hover {
 	color: black;
 	background-color: grey;
+}
+
+header {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#aboutUs {
+	background-color: lightblue;
+	padding: 10px;
+}
+
+#theTeam {
+	background-color: grey;
+	padding: 10px;
+}
+
+#testimonials {
+	background-color: lightgrey;
+	padding: 10px;
+}
+
+#busInquiries {
+	background-color: red;
+	padding: 10px;
+}
+
+form {
+	background-color: steelblue;
+	padding: 20px;
+	width: 30%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	box-shadow: 0 8px 6px -6px black;
+}
+
+label {
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+}
+
+#nameInput {
+	border: none;
+	border-bottom: 3px solid #2DDFFF;
+	margin: 10px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-left: 2px;
+	font-size: 18px;
+	width: 95%;
+}
+
+
+#emailInput {
+	border: none;
+	border-bottom: 3px solid #2DDFFF;
+	margin: 10px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-left: 2px;
+	font-size: 18px;
+	width: 95%;
+}
+
+#nameInput:focus, #emailInput:focus {
+	border-color: rgb(42, 84, 199);
+}
+
+#msgInput {
+	border: 3px solid #2DDFFF;
+	margin: 10px;
+	margin-bottom: 20px;
+	resize: vertical;
+	width: 95%;
+	font-size: 18px;
+}
+
+#msgInput:focus {
+	border-color: rgb(42, 84, 199);
+}
+
+#submitBn {
+	margin: 10px;
+	cursor: pointer;
+	border: none;
+	background-color: #2DDFFF;
+	padding: 10px;
+	font-size: 18px;
+	color: white;
+}
+
+#submitBn:hover {
+	background-color: rgb(35, 177, 202);
 }

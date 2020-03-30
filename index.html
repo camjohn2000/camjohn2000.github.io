@@ -11,13 +11,11 @@
 <body>
 	<nav>
 		<ul>
-			<li><a href="#"><img src="resources/images/devoLogo.png" height="40" alt="Devo Logo"></a></li>
-			<li><a href="#">Home</a></li>
-
 			<li><a href="nicsPage.html">Nicolas Layne</a></li>
 			<li><a href="cameronsPage.html">Cameron Johnson</a></li>
-			<li><a href="samuelsPage.html">Samuel</a></li>
-			<li><a href="damonsPage.html">Damon</a></li>
+			<li><a href="#"><img src="resources/images/devoLogo.png" height="40" alt="Devo Logo"></a></li>
+			<li><a href="samuelsPage.html">Samuel Aghoghovbia</a></li>
+			<li><a href="damonsPage.html">Damon McLaurin</a></li>
 		</ul>
 	</nav>
 
@@ -25,33 +23,33 @@
 		<img src="" height="" alt="Header background image">
 		<h1>DEVO Web Development Company</h1>
 		<p>Team 1's Website</p>
-		<p>***^^^ Stuff to go in header image ^^^***</p>
+		<p>***^^^ Stuff to go in header area ^^^***</p>
 		<br>
 	</header>
 	
-	<div>
+	<div id="aboutUs">
 		<h2>What We Do</h2>
 		<p>A description about the company</p>
 	</div>
 
-	<div>
+	<div id="theTeam">
 		<h2>Meet the Team</h2>
 		<p>2 rows w/ 3 people's (circle) pictures and names</p>
 	</div>
 
-	<div>
+	<div id="testimonials">
 		<h2>Testimonials</h2>
 		<p>People and their reviews of our work -> include star/number ratings</p>
 	</div>
 
-	<div>
+	<div id="busInquiries">
 		<h2>Business Inquiries</h2>
 		<p>The form to get in contact with us</p>
 		<form method="POST" action="">
-			<label>Name: <input type="text"></label>
-			<label>Email: <input type="Email"></label>
-			<label>Message: <textarea></textarea></label>
-			<button type="submit">Send</button>
+			<label>Name: <input type="text" id="nameInput"></label>
+			<label>Email: <input type="Email" id="emailInput"></label>
+			<label>Message: <textarea id="msgInput"></textarea></label>
+			<button type="submit" id="submitBn">Send</button>
 		</form>
 	</div>
 
