@@ -71,7 +71,7 @@ header {
 }
 
 form {
-	background-color: #aaa8d5;
+	background-color: #5652ac;
 	padding: 20px;
 	width: 30%;
 	margin-right: auto;
@@ -85,7 +85,7 @@ form {
 label {
 	font-weight: bold;
 	font-size: 20px;
-	color: #2b2956;
+	color: white;
 }
 
 #nameInput {
@@ -112,7 +112,7 @@ label {
 }
 
 #nameInput:focus, #emailInput:focus {
-	border-color: rgb(42, 84, 199);
+	border-color: #aaa8d5;
 }
 
 #msgInput {
@@ -125,7 +125,7 @@ label {
 }
 
 #msgInput:focus {
-	border-color: rgb(42, 84, 199);
+	border-color: #aaa8d5;
 }
 
 #submitBn {
@@ -139,7 +139,7 @@ label {
 }
 
 #submitBn:hover {
-	background-color: #2b2956;
+	background-color: #aaa8d5;
 }
 
 footer {
