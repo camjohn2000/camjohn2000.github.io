@@ -47,31 +47,31 @@ header {
 }
 
 #aboutUs {
-	background-color: #aaa8d5;
+	background-color: #5652ac;
 	padding: 10px;
 	text-align: center;
 }
 
 #theTeam {
-	background-color: #aaa8d5;
+	background-color: #5652ac;
 	padding: 10px;
 	text-align: center;
 }
 
 #testimonials {
-	background-color: #aaa8d5;
+	background-color: #5652ac;
 	padding: 10px;
 	text-align: center;
 }
 
 #busInquiries {
-	background-color: #aaa8d5;
+	background-color: #5652ac;
 	padding: 10px;
 	text-align: center;
 }
 
 form {
-	background-color: #5652ac;
+	background-color: #aaa8d5;
 	padding: 20px;
 	width: 30%;
 	margin-right: auto;
@@ -85,7 +85,7 @@ form {
 label {
 	font-weight: bold;
 	font-size: 20px;
-	color: white;
+	color: #2b2956;
 }
 
 #nameInput {
@@ -143,17 +143,21 @@ label {
 }
 
 footer {
-	background-color: grey;
+	background-color: #2b2956;
 	text-align: center;
 	padding: 10px;
 }
 
 footer a {
 	text-decoration: none;
-	color: black;
+	color: white;;
 	padding: 10px;
 }
 
 footer a:hover {
+	color: lightgrey;
+}
+
+footer p {
 	color: white;
 }
