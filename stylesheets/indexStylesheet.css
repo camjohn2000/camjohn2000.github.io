@@ -36,8 +36,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	color: black;
-	background-color: grey;
+	color: #2b2956;
+	background-color: #aaa8d5;
 }
 
 header {
@@ -97,6 +97,7 @@ label {
 	padding-left: 2px;
 	font-size: 18px;
 	width: 95%;
+	color: black;
 }
 
 
@@ -109,6 +110,7 @@ label {
 	padding-left: 2px;
 	font-size: 18px;
 	width: 95%;
+	color: black;
 }
 
 #nameInput:focus, #emailInput:focus {
@@ -122,6 +124,7 @@ label {
 	resize: vertical;
 	width: 95%;
 	font-size: 18px;
+	color: black;
 }
 
 #msgInput:focus {
