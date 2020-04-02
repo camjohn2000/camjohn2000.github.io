@@ -46,10 +46,10 @@
 	<div id="busInquiries">
 		<h2>Business Inquiries</h2>
 		<p>The form to get in contact with us</p>
-		<form method="POST" action="">
-			<label>Name: <input type="text" id="nameInput" placeholder="Name"></label>
-			<label>Email: <input type="Email" id="emailInput" placeholder="Email"></label>
-			<label>Message: <textarea id="msgInput" placeholder="Message"></textarea></label>
+		<form action="https://formspree.io/xzbabkny" method="POST">
+			<label>Name: <input type="text" id="nameInput" placeholder="Name" name="name"></label>
+			<label>Email: <input type="Email" id="emailInput" placeholder="Email" name="_replyto"></label>
+			<label>Message: <textarea id="msgInput" placeholder="Message" name="message"></textarea></label>
 			<button type="submit" id="submitBn">Send</button>
 		</form>
 	</div>
