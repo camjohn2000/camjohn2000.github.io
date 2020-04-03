@@ -60,11 +60,22 @@ header {
 
 #teamBox {
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: auto auto;
+	grid-gap: 20px;
+	justify-content: space-evenly;
+}
+
+#teamBox a {
+	text-decoration: none;
 }
 
 .teamGroup {
+	padding: 15px;
+}
 
+.teamGroup:hover {
+	background-color: #5652ac;
+	box-shadow: 0 0px 10px 3px black;
 }
 
 .teamMemberPic {
