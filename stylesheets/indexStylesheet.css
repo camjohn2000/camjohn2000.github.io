@@ -44,7 +44,15 @@ header {
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
+	position: relative;
 }
+
+#headerText {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
 
 #aboutUs {
 	background-color: #2b2956;
