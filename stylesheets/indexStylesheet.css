@@ -58,6 +58,19 @@ header {
 	text-align: center;
 }
 
+#teamBox {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.teamGroup {
+
+}
+
+.teamMemberPic {
+	border-radius: 50%;
+}
+
 #testimonials {
 	background-color: #2b2956;
 	padding: 10px;
@@ -78,8 +91,22 @@ form {
 	margin-left: auto;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 0px 10px 3px black;
 	text-align: left;
+}
+
+form h2 {
+	font-size: 36px; 
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+form p {
+	padding-top: 0px;
+	margin-top: 0px;
+	color: #aaa8d5;
+	margin-bottom: 40px;
 }
 
 label {
