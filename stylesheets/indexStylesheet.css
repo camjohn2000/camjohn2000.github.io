@@ -47,13 +47,6 @@ header {
 	background-color: #5652ac;
 }
 
-#headerText {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-  }
-
 #aboutUs {
 	background-color: #2b2956;
 	padding: 10px;
