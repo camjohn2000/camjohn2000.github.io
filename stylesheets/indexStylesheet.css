@@ -99,17 +99,16 @@ header {
 
 #testimonials {
 	background-color: #2b2956;
-	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	text-align: center;
 }
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
-  box-sizing:border-box;
-  left: 50%;
+  box-sizing: border-box;
 }
 
 /* Hide the images by default */
