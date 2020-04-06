@@ -1,17 +1,16 @@
 let slideIndex = 1;
-showSlides(slideIndex);
 
 // Next/previous controls
-plusSlides = n => {
+let plusSlides = n => {
   showSlides(slideIndex += n);
 }
 
 // Thumbnail image controls
-currentSlide = n => {
+let currentSlide = n => {
   showSlides(slideIndex = n);
 }
 
-showSlides = n => {
+let showSlides = n => {
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
@@ -29,4 +28,6 @@ showSlides = n => {
   
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-} 
+}
+
+showSlides(slideIndex);
