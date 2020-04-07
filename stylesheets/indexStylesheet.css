@@ -56,6 +56,13 @@ nav ul li a:hover {
 	margin-right: auto;
 }
 
+table {
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid white;
+}
+
 #theTeam {
 	background-color: #2b2956;
 	padding: 10px;
@@ -87,6 +94,7 @@ nav ul li a:hover {
 
 .teamMemberPic {
 	border-radius: 50%;
+	border: 4px solid #5652ac;
 }
 
 #testimonials {
@@ -131,20 +139,17 @@ nav ul li a:hover {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   left: 93%;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
 /* Number text (1/5 etc) */
 .numbertext {
-  color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
