@@ -10,6 +10,12 @@ body {
     background-image: linear-gradient(black, #2b2956, #5652ac, #aaa8d5);
 }
 
+hr {
+	border: 4px solid black;
+	border-radius: 5px;
+	width: 80%;
+}
+
 header {
     text-align: center;
     background-color: black;
@@ -56,17 +62,30 @@ nav ul {
 
   #aboutNicCont {
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto 50px auto;
   }
 
   #skillsExpCont {
-
+    margin: 20px auto 50px auto;
   }
 
   #skillsBody {
     display: grid;
     grid-template-columns: auto auto auto;
+    width: 80%;
+    margin: auto;
+  }
+
+  .skillsUL {
+    text-align: left;
+    width: 80%;
+    margin: auto;
+  }
+
+  ol {
+    text-align: left;
+    width: 80%;
+    margin: auto;
   }
 
   #specialtyCont {
@@ -75,11 +94,29 @@ nav ul {
     margin-right: auto;
     display: grid;
     grid-template-columns: 25% auto;
+    justify-content: center;
+    align-content: center;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
+  #specTitle {
+    background-color: black;
+    line-height: 100px;
+    margin: auto;
+    height: 100%;
+  }
 
+  #specBody {
+    background-color: #2b2956;
+    font-size: 18px;
+    margin: auto;
+    height: 100%;
+  }
 
   #workExCont {
+    margin: 50px auto 20px auto;
   }
 
   #workExs {
@@ -93,6 +130,12 @@ nav ul {
     padding: 20px;
     padding-top: 0px;
     width: 250px;
+    box-shadow: 0 0px 8px 2px black;
+    transition: 0.6s ease;
+  }
+
+  .workCard:hover {
+    background-color: #2b2956;
   }
 
   footer {
