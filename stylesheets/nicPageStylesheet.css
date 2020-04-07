@@ -6,17 +6,27 @@
 }
 
 body {
-    background-color: #5652ac;
+    background-color: #2b2956;
+    background-image: linear-gradient(black, #2b2956, #5652ac, #aaa8d5);
 }
 
 header {
     text-align: center;
-    background-image: url("../resources/images/devoLogo.png");
-    background-repeat: repeat-x;
-    background-size: 200px 200px;
-    background-position: center;
     background-color: black;
-    height: 250px;
+    height: 325px;
+}
+
+header div {
+  background-image: url("../resources/images/devoLogo.png");
+  background-repeat: repeat-x;
+  background-size: 75px 75px;
+  background-position: center;
+  height: 75px;
+}
+
+#bodySection {
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 nav ul {
@@ -24,15 +34,85 @@ nav ul {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #2b2956;
+    background-color: black;
+    height: 100%;
   }
   
   nav ul li a {
     display: block;
     padding: 8px 16px;
     text-decoration: none;
+    transition: 0.4s ease;
   }
   
   nav ul li a:hover {
+    background-color: #2b2956;
+  }
+
+  #bodyContent {
+    padding: 20px;
+    text-align: center;
+  }
+
+  #aboutNicCont {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #skillsExpCont {
+
+  }
+
+  #skillsBody {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  #specialtyCont {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 25% auto;
+  }
+
+
+
+  #workExCont {
+  }
+
+  #workExs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+  }
+
+  .workCard {
+    background-color: black;
+    padding: 20px;
+    padding-top: 0px;
+    width: 250px;
+  }
+
+  footer {
     background-color: #5652ac;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: white;;
+    padding: 10px;
+  }
+  
+  footer a:hover {
+    color: lightgrey;
+  }
+  
+  footer p {
+    color: white;
+    margin: 0;
+    padding: 2px;
   }
