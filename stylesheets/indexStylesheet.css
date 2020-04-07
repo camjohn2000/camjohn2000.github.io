@@ -6,7 +6,7 @@
 }
 
 body {
-	background-color: #2b2956;
+	background-color: black;
 }
 
 h1 {
@@ -27,6 +27,8 @@ nav ul {
 
 nav ul li {
 	float: left;
+	margin: 0;
+	padding: 0;
 }
 
 nav ul li a {
@@ -34,7 +36,8 @@ nav ul li a {
 	text-decoration: none;
     text-align: center;
     color: white;
-    padding: 10px;
+	padding: 15px;
+	margin: 0;
 	font-size: 18px;
 	transition: 0.2s ease;
 }
@@ -45,29 +48,21 @@ nav ul li a:hover {
 }
 
 #aboutUs {
-	background-color: #2b2956;
 	padding: 10px;
 	text-align: center;
 }
 
 .aboutText {
-	width: 50%;
+	width: 40%;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-table {
-	background-color: black;
-	margin-left: auto;
-	margin-right: auto;
-	border: 2px solid white;
 }
 
 #theTeam {
-	background-color: #2b2956;
 	padding: 10px;
 	text-align: center;
 	border-top: 3px solid black;
+	background-color: #2b2956;
 }
 
 #teamBox {
@@ -98,9 +93,8 @@ table {
 }
 
 #testimonials {
-	background-color: #2b2956;
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 40px;
 	text-align: center;
 	border-top: 3px solid black;
 }
@@ -111,7 +105,7 @@ table {
   margin: auto;
   box-sizing: border-box;
   max-width: 1000px;
-  box-shadow: 0 0px 10px 3px black;
+  margin-bottom: 40px;
 }
 
 /* Hide the images by default */
@@ -192,11 +186,27 @@ table {
 	font-weight: normal;
 }
 
+table {
+	background-color: #5652ac;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+table, th, td {
+	border: 2px solid #2b2956;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px;
+}
+
 #busInquiries {
-	background-color: #2b2956;
 	padding: 10px;
 	text-align: center;
 	border-top: 3px solid black;
+	background-color: #2b2956;
 }
 
 form {
@@ -306,4 +316,6 @@ footer a:hover {
 
 footer p {
 	color: white;
+	margin: 0;
+	padding: 2px;
 }
