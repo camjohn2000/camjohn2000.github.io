@@ -9,6 +9,10 @@ body {
 	background-color: #2b2956;
 }
 
+h1 {
+	font-size: 48px;
+}
+
 nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -32,19 +36,12 @@ nav ul li a {
     color: white;
     padding: 10px;
 	font-size: 18px;
+	transition: 0.2s ease;
 }
 
 nav ul li a:hover {
 	color: white;
 	background-color: #2b2956;
-}
-
-header {
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
-	position: relative;
-	background-color: #5652ac;
 }
 
 #aboutUs {
@@ -63,6 +60,7 @@ header {
 	background-color: #2b2956;
 	padding: 10px;
 	text-align: center;
+	border-top: 3px solid black;
 }
 
 #teamBox {
@@ -79,6 +77,7 @@ header {
 .teamGroup {
 	padding: 15px;
 	width: 300px;
+	transition: 0.4s ease;
 }
 
 .teamGroup:hover {
@@ -95,6 +94,7 @@ header {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
+	border-top: 3px solid black;
 }
 
 /* Slideshow container */
@@ -191,6 +191,7 @@ header {
 	background-color: #2b2956;
 	padding: 10px;
 	text-align: center;
+	border-top: 3px solid black;
 }
 
 form {
