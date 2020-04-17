@@ -1,1 +1,33 @@
 /* Cameron's Page (cameronsPage.html) stylesheet */
+
+* {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+body {
+    background-color: #2b2956;
+    background-image: linear-gradient(black, #2b2956, #5652ac, #aaa8d5);
+}
+
+footer {
+    background-color: #5652ac;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: white;;
+    padding: 10px;
+  }
+  
+  footer a:hover {
+    color: lightgrey;
+  }
+  
+  footer p {
+    color: white;
+    margin: 0;
+    padding: 2px;
+  }
