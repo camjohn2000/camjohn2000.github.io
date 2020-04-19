@@ -1,3 +1,7 @@
+* {
+	font-family: "Lucida Console", monospace;
+	color: black;
+}
 body {
 	background-color: tan;
 	text-align: center;
