@@ -7,7 +7,7 @@ body {
 	background-color: tan;
 	text-align: center;
 	padding: 20px;
-    	text-align: center
+	text-shadow: 1px 1px tan;
 }
 
 p,h1,h2,h3 {
@@ -50,10 +50,12 @@ li a:hover {
 
 #naoto{
 	background-image: url("pics/Naoto.jpg");
+	padding: 20px;
 }
 
 #carmine{
 	background-image: url("pics/Carmine.jpg");
+	padding: 20px;
 }
 
 #naoto,#carmine{
