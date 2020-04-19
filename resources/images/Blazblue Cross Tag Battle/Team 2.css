@@ -50,12 +50,14 @@ li a:hover {
 
 #naoto{
 	background-image: url("pics/Naoto.jpg");
-	padding: 20px;
+	padding:50px 80px;
+	text-align: justify;
 }
 
 #carmine{
 	background-image: url("pics/Carmine.jpg");
-	padding: 20px;
+	padding:50px 80px;
+	text-align: justify;
 }
 
 #naoto,#carmine{
