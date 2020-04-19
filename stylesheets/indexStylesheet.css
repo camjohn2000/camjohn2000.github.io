@@ -301,6 +301,12 @@ label {
 	background-color: #aaa8d5;
 }
 
+#iframe {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
 footer {
 	background-color: #5652ac;
 	text-align: center;
