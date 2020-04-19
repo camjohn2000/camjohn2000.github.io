@@ -91,23 +91,18 @@ nav ul {
     content:"";
     clear: both;
     display: grid;
+	grid-template-columns: auto auto;
     color: #C0C0C0;
     text-decoration: underline;
     text-decoration: #C0C0C0
     
   }
   
-  #sampleExLBody {
-    float: left;
+  .sampleExBody {
     width: 50%;
     padding: 5px;
   }
 
-#sampleExRBody {
-    float: right;
-    width: 50%;
-    padding: 5px;
-  }
 
 /*
   .center {
