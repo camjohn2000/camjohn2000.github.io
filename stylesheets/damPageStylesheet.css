@@ -91,7 +91,6 @@ nav ul {
     content:"";
     clear: both;
     display: grid;
-	grid-template-columns: auto auto;
     color: #C0C0C0;
     text-decoration: underline;
     text-decoration: #C0C0C0
