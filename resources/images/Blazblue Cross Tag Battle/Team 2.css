@@ -44,3 +44,16 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+#naoto{
+	background-image: url("pics/Naoto.jpg");
+}
+
+#carmine{
+	background-image: url("pics/Carmine.jpg");
+}
+
+#naoto,#carmine{
+background-repeat:no-repeat;
+	background-attachment: fixed;
+}
