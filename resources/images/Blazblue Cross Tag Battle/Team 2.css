@@ -54,6 +54,9 @@ li a:hover {
 }
 
 #naoto,#carmine{
-background-repeat:no-repeat;
+	/*position: relative;
+  opacity: 0.65;*/
+  background-repeat: no-repeat;
+	background-position: center;
 	background-attachment: fixed;
 }
