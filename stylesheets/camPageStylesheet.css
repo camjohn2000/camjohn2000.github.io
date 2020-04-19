@@ -132,3 +132,9 @@ nav ul li a:hover {
 .displayCard:hover {
     background-color: #2b2956;
 }
+
+#portfolioContent {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
