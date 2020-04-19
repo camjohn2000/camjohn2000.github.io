@@ -1,10 +1,13 @@
 * {
 	font-family: "Lucida Console", monospace;
 	color: black;
+	text-shadow: 1px 1px tan;
 }
 body {
 	background-color: tan;
 	text-align: center;
+	padding: 20px;
+    	text-align: center
 }
 
 p,h1,h2,h3 {
