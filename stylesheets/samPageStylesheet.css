@@ -1,1 +1,161 @@
 /* Samuel's page (samuelsPage.html) stylesheet */
+
+* {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+body {
+    background-color: #2b2956;
+    background-image: linear-gradient(black, #2b2956, #5652ac, #aaa8d5);
+}
+
+hr {
+	border: 4px solid black;
+	border-radius: 5px;
+	width: 80%;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    height: 325px;
+}
+
+header div {
+  background-image: url("../resources/images/devoLogo.png");
+  background-repeat: repeat-x;
+  background-size: 50px 50px;
+  background-position: center;
+  height: 75px;
+}
+
+#bodySection {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: black;
+    height: 100%;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: 0.4s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #2b2956;
+  }
+
+  #bodyContent {
+    padding: 20px;
+    text-align: center;
+  }
+
+  #aboutNicCont {
+    width: 50%;
+    margin: 20px auto 50px auto;
+  }
+
+  #skillsExpCont {
+    margin: 20px auto 50px auto;
+  }
+
+  #skillsBody {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    margin: auto;
+  }
+
+  .skillsUL {
+    text-align: left;
+    width: 80%;
+    margin: auto;
+  }
+
+  ol {
+    text-align: left;
+    width: 80%;
+    margin: auto;
+  }
+
+  #specialtyCont {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 25% auto;
+    justify-content: center;
+    align-content: center;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #specTitle {
+    background-color: black;
+    line-height: 100px;
+    margin: auto;
+    height: 100%;
+  }
+
+  #specBody {
+    background-color: #2b2956;
+    font-size: 18px;
+    margin: auto;
+    height: 100%;
+  }
+
+  #workExCont {
+    margin: 50px auto 20px auto;
+  }
+
+  #workExs {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+  }
+
+  .workCard {
+    background-color: black;
+    padding: 20px;
+    padding-top: 0px;
+    width: 250px;
+    box-shadow: 0 0px 8px 2px black;
+    transition: 0.6s ease;
+  }
+
+  .workCard:hover {
+    background-color: #2b2956;
+  }
+
+  footer {
+    background-color: #5652ac;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: white;;
+    padding: 10px;
+  }
+  
+  footer a:hover {
+    color: lightgrey;
+  }
+  
+  footer p {
+    color: white;
+    margin: 0;
+    padding: 2px;
+  }
