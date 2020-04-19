@@ -97,8 +97,14 @@ nav ul {
     
   }
   
-  .sampleExBody {
+  #sampleExLBody {
     float: left;
+    width: 50%;
+    padding: 5px;
+  }
+
+#sampleExRBody {
+    float: right;
     width: 50%;
     padding: 5px;
   }
