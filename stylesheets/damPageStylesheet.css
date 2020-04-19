@@ -117,7 +117,7 @@ nav ul {
   }
 
   #contactExs {
-    display: inline;
+    display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-evenly;
   }
