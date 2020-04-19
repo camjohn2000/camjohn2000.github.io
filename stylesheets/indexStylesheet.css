@@ -295,6 +295,7 @@ label {
 	padding: 10px;
 	font-size: 18px;
 	color: white;
+	transition: 0.2s ease;
 }
 
 #submitBn:hover {
