@@ -1,20 +1,26 @@
+* {
+  font-family: "Lucida Console", monospace;
+  color: white;
+  text-shadow: 1px 1px #FCBA12;
+}
+
 body {
-	background-color: tan;
+  background-color: black;
+  text-align: center;
 }
 
 p,h1,h2,h3 {
-	text-align:center;
+  text-align: center;
 }
 
-img {
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
+img{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-img:hover
-{
-	opacity: .7;
+img:hover{
+  opacity: .7;
 }
 
 ul {
@@ -39,4 +45,25 @@ li a {
 
 li a:hover {
   background-color: #111;
+}
+
+#neo{
+  background-image: url("pics/Linne.jpg");
+  text-align:center;
+  padding:50px 200px;
+}
+
+#adachi{
+  background-image: url("pics/Chie.jpg");
+  background-position: 0px 2000px;
+  padding:50px 200px;
+  text-align: justify;
+}
+
+#neo,#adachi{
+  position: relative;
+  /*opacity: 1;*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
