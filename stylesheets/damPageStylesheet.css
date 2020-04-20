@@ -99,7 +99,7 @@ nav ul {
   .sampleCont {
     content: "";
     clear: both;
-    display: table;
+    display: grid;
     color: #C0C0C0;
     text-decoration: underline;
     text-decoration: #C0C0C0
