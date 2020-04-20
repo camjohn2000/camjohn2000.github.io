@@ -26,108 +26,6 @@ body {background-color: ;
 	background-attachment: fixed;
 }
 
-.Linne{
-	background-image: url("pics/linne.jpg");
-	/*margin-left: auto;
-	margin-right: auto;
-	padding:100px;
-	background-position: -500px 00px;
-	background-size: auto;
-	text-align: center;*/
-}
-
-.Chie{
-	background-image: url("pics/Chie.jpg");
-}
-
-.Platinum{
-	background-image: url("pics/Platinum.jpg");
-}
-
-.Blake{
-	background-image: url("pics/Blake.jpg");
-}
-
-.Naoto{
-	background-image: url("pics/Naoto.jpg");
-}
-
-.Carmine{
-	background-image: url("pics/Carmine.jpg");
-}
-
-.Mai{
-	background-image: url("pics/Mai.jpg");
-}
-
-.Labrys{
-	background-image: url("pics/Labrys.jpg");
-}
-
-.Neo{
-	background-image: url("pics/Neo.jpg");
-}
-
-.Tohru{
-	background-image: url("pics/Adachi.jpg");
-}
-
-
-.Linne,.Chie,.Platinum,.Blake,.Naoto,.Carmine,.Mai,.Labrys,.Neo,.Tohru{
-	background-repeat:no-repeat;
-	background-attachment: fixed;
-}
-
-
-.Test1{
-	float:;
-  width: 45%;
-  padding: 5px;
-}
-
-
-.Clearfix2::after{
-	content: "";
-	clear: both;
-	display:;
-}
-
-.img-container {
-  float: left;
-  width: 40%;
-  padding: 70px;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/*.Test{
-	float: left;
-  width: 50%;
-  padding: 5px;
-}
-
-
-.Clearfix::after{
-	content: "";
-	clear: both;
-	display: table;
-}*/
-
-img {
-	opacity:0;
-	/*display: block;
-	margin-left:auto;
-	margin-right:auto;*/
-}
-
-img:hover {
-	opacity:.5;
-}
-
 h1 {
 	color: #5B2089;
 }
@@ -166,3 +64,72 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+#teams {
+    margin: 50px auto 20px auto;
+  }
+
+  .team0,.team1,.team2,.team3,.team4 {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+  }
+
+  #lin,#chie,#plat,#blake,#naoto,#carmine,#mai,#labrys,#neo,#adachi {
+    background-color: black;
+    padding: 50px;
+    padding-top: 0px;
+    width: 250px;
+    box-shadow: 0 0px 8px 2px black;
+    transition: 0.6s ease;
+  }
+
+  #lin:hover {
+    background-image: url("pics/Linne.jpg");
+  background-position: -600px -40px;
+  }
+
+  #chie:hover {
+    background-image: url("pics/chie.jpg");
+  background-position: -100px -40px;
+  }
+
+   #plat:hover {
+    background-image: url("pics/platinum.jpg");
+  background-position: -600px -90px;
+  }
+
+ #blake:hover {
+    background-image: url("pics/blake.jpg");
+  background-position: -100px -40px;
+  }
+
+ #naoto:hover {
+    background-image: url("pics/naoto.jpg");
+  background-position: -130px -40px;
+  }
+
+ #carmine:hover {
+    background-image: url("pics/carmine.jpg");
+  background-position: -800px 0px;
+  }
+
+ #mai:hover {
+    background-image: url("pics/mai.jpg");
+  background-position: -800px -40px;
+  }
+
+ #labrys:hover {
+    background-image: url("pics/labrys.jpg");
+  background-position: -400px -40px;
+  }
+
+ #neo:hover {
+    background-image: url("pics/neo.jpg");
+  background-position: -70px -200px;
+  }
+
+ #adachi:hover {
+    background-image: url("pics/adachi.jpg");
+  background-position: -40px -150px;
+  }
