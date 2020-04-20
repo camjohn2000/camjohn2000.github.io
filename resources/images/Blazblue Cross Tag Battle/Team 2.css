@@ -1,27 +1,26 @@
 * {
-	font-family: "Lucida Console", monospace;
-	color: black;
-	text-shadow: 1px 1px tan;
+  font-family: "Lucida Console", monospace;
+  color: white;
+  text-shadow: 1px 1px #FCBA12;
 }
+
 body {
-	background-color: tan;
-	text-align: center;
-	padding: 20px;
-	text-shadow: 1px 1px tan;
+  background-color: black;
+  text-align: center;
 }
 
 p,h1,h2,h3 {
-	text-align: center;
+  text-align: center;
 }
 
 img{
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img:hover{
-	opacity: .7;
+  opacity: .7;
 }
 
 ul {
@@ -49,23 +48,22 @@ li a:hover {
 }
 
 #naoto{
-	background-image: url("pics/Naoto.jpg");
-	background-color:white;
-	text-align:center;
-	padding:50px 80px;
-	text-align: justify;
+  background-image: url("pics/Linne.jpg");
+  text-align:center;
+  padding:50px 200px;
 }
 
 #carmine{
-	background-image: url("pics/Carmine.jpg");
-	padding:50px 80px;
-	text-align: justify;
+  background-image: url("pics/Chie.jpg");
+  background-position: 0px 2000px;
+  padding:50px 200px;
+  text-align: justify;
 }
 
 #naoto,#carmine{
-	position: relative;
-  /*opacity: 0.65;*/
+  position: relative;
+  /*opacity: 1;*/
   background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
+  background-position: center;
+  background-attachment: fixed;
 }
