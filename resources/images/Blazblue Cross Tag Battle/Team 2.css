@@ -48,13 +48,13 @@ li a:hover {
 }
 
 #naoto{
-  background-image: url("pics/Linne.jpg");
+  background-image: url("pics/Naoto.jpg");
   text-align:center;
   padding:50px 200px;
 }
 
 #carmine{
-  background-image: url("pics/Chie.jpg");
+  background-image: url("pics/Carmine.jpg");
   background-position: 0px 2000px;
   padding:50px 200px;
   text-align: justify;
