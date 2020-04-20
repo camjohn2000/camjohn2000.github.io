@@ -98,9 +98,9 @@ nav ul {
   }
   
   .sampleExBody {
-    grid-template-columns: auto auto;
-    margin-left: left;
-    margin-right: right;
+    grid-template-columns: auto auto auto;
+   /* margin-left: left;
+    margin-right: right; */
     width: 50%;
     padding: 5px;
   }
