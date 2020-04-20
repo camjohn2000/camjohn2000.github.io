@@ -15,7 +15,7 @@ text-alight: center;
 }
 
 .bgimg4{
-	background-image: url("pics/heart.jpg");
+	background-image: url("pics/Heart.jpg");
 }
 
 .bgimg1,.bgimg2,.bgimg3,.bgimg4{
@@ -26,6 +26,9 @@ text-alight: center;
 	background-attachment: fixed;
 }
 
+.bgimg2{
+	opacity:1;
+}
 h1 {
 	color: #5B2089;
 }
