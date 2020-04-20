@@ -67,3 +67,8 @@ li a:hover {
   background-position: center;
   background-attachment: fixed;
 }
+
+#chie:hover {
+    background-image: url("pics/Chie.jpg");
+  background-position: -100px -40px;
+  }
