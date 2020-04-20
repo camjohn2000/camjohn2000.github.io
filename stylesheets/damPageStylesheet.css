@@ -88,22 +88,28 @@ nav ul {
   }
 
 .sampleExBody {
-	float: left;
-   /* grid-template-columns: auto auto auto;
+	/*float: left;
+    grid-template-columns: auto auto auto;
     margin-left: left;
-    margin-right: right; */
+    margin-right: right; 
     width: 50%;
-    padding: 5px;
+    padding: 5px;*/
+padding: 20px;
+    padding-top: 0px;
+    width: 250px;
+	
   }
 
-  .sampleCont {
-    content: "";
+  #sampleCont {
+    /*content: "";
     clear: both;
     display: grid;
     color: #C0C0C0;
     text-decoration: underline;
-    text-decoration: #C0C0C0
-    
+    text-decoration: #C0C0C0 */
+	display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
   }
   
 
